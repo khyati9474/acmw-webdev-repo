@@ -5,6 +5,20 @@ p
 
 h1{
     color :black;
-background-color: lightskyblue;
+
     
+  }
+
+
+  .center{
+
+    border: 3px solid blue;
+
+
+    text-align: center ;
+  }
+
+  .begin
+  {
+    border: 3px solid blue;
   }
