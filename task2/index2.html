@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webdite using bootstrap</title>
+    <link rel ="stylesheet" href="style2.css">
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+    <section id = "nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#"><img src ="data:image/jpeg;base64,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">STUDENT CARE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#top">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#services">Services</a>
+                <a class="nav-item nav-link" href="#about-us">About Us</a>
+                <a class="nav-item nav-link" href="#social-media">Contact Us</a>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <section id="banner">
+        <div class ="container">
+            <div class = "row">
+                <div class = "col-md-6">
+                    <p class="promo-title">PORTAL FOR STUDENTS</p>
+                    <p>Managed By Student Supporting Organization XYZ </p>
+                    <a href="#"><img src="play.png" class ="Play-button">Watch Tutorial</a>
+
+
+                </div>
+                <div class ="col-md-6 text-center ">
+                    <img src="home2.png" class ="img-office">
+                                </div>
+            </div>
+        </div>
+        
+        <img src="wave1.png" class ="bottom-img">
+
+        <section id = "services">
+            <div class ="container text-center ">
+                <h1 class = "title">WHAT WE DO?</h1>
+                <div class = "row text-center ">
+                    <div class="col-md-4 services ">
+                        <img src ="service1.png" class ="services-img">
+                        <h4>Mock Exam Tests</h4>
+                        <p>Mock Test Exams avalible for preperation before the exam.</p>
+
+                    </div>
+
+                    <div class="col-md-4 services ">
+                        <img src ="service3.png" class ="services-img">
+                        <h4>Download Material</h4>
+                        <p>Materiallike lecture notes,PYQs, sample paper avaliable for download.</p>
+
+                    </div>
+
+                    <div class="col-md-4 services ">
+                        <img src ="service2.png" class ="services-img">
+                        <h4>Doubt Solving</h4>
+                        <p>Online doubt solving session for solving your doubts. </p>
+
+                    </div>
+
+                </div>
+
+                <button type ="button" class="btn btn-primary">All Services</button>
+
+            </div>
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+    </section>
+   
+    <section id ="about-us">
+
+        <div class ="container">
+            <h1 class = "title text-center"> About Us-</h1>
+            <div class ="row">
+                <div class = "col-md-6 about-us">
+                    <p class ="about-title">Why we're different</p>
+                    <ul>
+                        <li>150+ study material avaliable.</li>
+                        <li>24/7 help avaliable.</li>
+                        <li>Study at your own pace.</li>
+                    </ul>
+                </div>
+                <div class ="col-md-6">
+                <img src = "network.png" class ="img-office"></div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+
+    
+
+    <section id="social-media">
+        <div class ="container text-center">
+            
+            <p>Find and Contact Us On Social Media</p>
+            <div class ="socail-icons">
+                <a href="#"><img src ="facebook-icon.png"></a>
+                <a href="#"><img src ="instagram-icon.png"></a>
+                <a href="#"><img src ="twitter-icon.png"></a>
+                <a href="#"><img src ="linkedin-icon.png"></a>
+                <a href="#"><img src ="snapchat-icon.png"></a>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <section id ="footer">
+        <p class ="copyright">Created by Khyati Mathur</p>
+        <img src ="wave1.png" class ="footer-img">
+        <div class ="container">
+            <div class = "row">
+                <div class ="col-md-4">
+                    
+
+                </div>
+            </div>
+
+        </div>
+        
+        
+
+    </section>
+
+
+    <script src ="smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+
+    
+
+
+
+
+
+
+
+</body>
+</html>
